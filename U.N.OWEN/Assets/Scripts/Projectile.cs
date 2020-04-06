@@ -27,17 +27,9 @@ public class Projectile : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            DestroyProjectile();
-        }
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && Vector2.Distance(collision.gameObject.transform.position, transform.position) < 1f)
         {
             DestroyProjectile();
         }

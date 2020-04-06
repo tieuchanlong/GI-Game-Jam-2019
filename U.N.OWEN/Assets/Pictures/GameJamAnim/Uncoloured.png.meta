@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 9dfc912b35ac05c48896a6e6e65737f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7459783586063191090
+    second: Uncoloured_0
+  - first:
+      213: -80426531480432582
+    second: Uncoloured_1
+  - first:
+      213: 4527560484705690771
+    second: Uncoloured_2
+  - first:
+      213: 7819654118494356077
+    second: Uncoloured_3
+  - first:
+      213: 5341355109532294518
+    second: Uncoloured_4
+  - first:
+      213: 3726191179558769897
+    second: Uncoloured_5
+  - first:
+      213: -4775468714558997234
+    second: Uncoloured_6
+  - first:
+      213: 2982456560593260287
+    second: Uncoloured_7
+  - first:
+      213: -5478833705778616761
+    second: Uncoloured_8
+  - first:
+      213: -4650390658371629565
+    second: Uncoloured_9
+  - first:
+      213: -8665145382520353916
+    second: Uncoloured_10
+  - first:
+      213: -2300342819690698984
+    second: Uncoloured_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Uncoloured_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 26
+        width: 230
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744e92e311872eb47a11c26109751360
+      internalID: -7459783586063191090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 443
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b817bf51a1a4b0345b4f264980a8b2d4
+      internalID: -80426531480432582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 26
+        width: 231
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af3e3a4960676341b391348aa8b28be
+      internalID: 4527560484705690771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 24
+        width: 239
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a2a819fae64b64ebe23cc88211c72e
+      internalID: 7819654118494356077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_4
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 14
+        width: 207
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d492e4dffe35c143aaf84c8f2dc83ea
+      internalID: 5341355109532294518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_5
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 26
+        width: 231
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faf024e3915ede44932eb261f8daa6d
+      internalID: 3726191179558769897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_6
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 29
+        width: 214
+        height: 540
+      alignment: 9
+      pivot: {x: 0.21772097, y: 0.49275404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eb41394107be44ea392874476b94b3
+      internalID: -4775468714558997234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_7
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 15
+        width: 228
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4861fb326d495429bae7323f20cd5b
+      internalID: 2982456560593260287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_8
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 14
+        width: 219
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c71b8cc7aac6504482b3909e23294cb
+      internalID: -5478833705778616761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 361
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8879fd98908a1404899a1ed9d8a51622
+      internalID: -4650390658371629565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_10
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 22
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539d3a7fdeff7fe428873256c5df48b8
+      internalID: -8665145382520353916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uncoloured_11
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 27
+        width: 222
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca39430e6ef36e4788e495e2c03f8eb
+      internalID: -2300342819690698984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,20 +15,33 @@ public class MeleeEnemy : MonoBehaviour
     public float bounceSpeed = 1f;
 
     public int hp = 1;
+    //
+    public Animator animator;
+    
+    //
 
     // Start is called before the first frame update
     void Start()
     {
+        //
+        animator = GetComponent<Animator>();
+        //
         player = GameObject.FindGameObjectWithTag("Player");
+      
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+
+         animator.SetFloat("x",  player.transform.position.x - transform.position.x);
+         animator.SetFloat("y",  player.transform.position.y - transform.position.y);
+        //
         if (getAttacked == true) GetAttacked();
         else
         {
-            float dist = Vector3.Distance(transform.position, player.transform.position);
+            float dist = Vector2.Distance(transform.position, player.transform.position);
 
             if (dist < maxDist) transform.position = Vector3.MoveTowards(transform.position, player.transform.position, step / 5 * Time.deltaTime);
             else
@@ -46,6 +59,7 @@ public class MeleeEnemy : MonoBehaviour
 
         Die();
     }
+
 
     void GetAttacked()
     {

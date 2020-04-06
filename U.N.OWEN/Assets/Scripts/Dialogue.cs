@@ -17,7 +17,7 @@ public class Dialogue : MonoBehaviour
 
     IEnumerator Type()
     {
-        foreach(char letter in sentences[index].ToCharArray())
+        foreach (char letter in sentences[index].ToCharArray())
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
@@ -28,7 +28,7 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         index = -1;
-        
+
     }
 
     // Update is called once per frame

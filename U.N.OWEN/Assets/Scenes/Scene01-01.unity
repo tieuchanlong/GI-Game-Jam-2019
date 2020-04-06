@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -560,18 +560,6 @@ PolygonCollider2D:
       - {x: -30, y: -40}
       - {x: 30, y: -40}
       - {x: 30, y: 40}
---- !u!1 &457940474 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4689602652292379273, guid: 633c64dfe1b95f143bf13ded690efe95,
-    type: 3}
-  m_PrefabInstance: {fileID: 1046969361}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &764987242 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4689602652292379268, guid: 633c64dfe1b95f143bf13ded690efe95,
-    type: 3}
-  m_PrefabInstance: {fileID: 1046969361}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1046969361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -579,16 +567,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4689602652292379273, guid: 633c64dfe1b95f143bf13ded690efe95,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4689602652292379273, guid: 633c64dfe1b95f143bf13ded690efe95,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 4689602652292379275, guid: 633c64dfe1b95f143bf13ded690efe95,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -643,6 +621,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689602652292379273, guid: 633c64dfe1b95f143bf13ded690efe95,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689602652292379273, guid: 633c64dfe1b95f143bf13ded690efe95,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 633c64dfe1b95f143bf13ded690efe95, type: 3}
@@ -1042,12 +1030,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1861015194 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4689602652292379275, guid: 633c64dfe1b95f143bf13ded690efe95,
-    type: 3}
-  m_PrefabInstance: {fileID: 1046969361}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2083796678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1277,15 +1259,15 @@ PrefabInstance:
     - target: {fileID: 0}
       propertyPath: PlayerLain
       value: 
-      objectReference: {fileID: 457940474}
+      objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1861015194}
+      objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: PlayerLain
       value: 
-      objectReference: {fileID: 457940474}
+      objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 0
@@ -1299,7 +1281,7 @@ PrefabInstance:
         type: 3}
       propertyPath: PlayerLain
       value: 
-      objectReference: {fileID: 457940474}
+      objectReference: {fileID: 0}
     - target: {fileID: 5965469463930309461, guid: 3def006043be08f4484b76bf9c51cf06,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1394,12 +1376,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Follow
       value: 
-      objectReference: {fileID: 1861015194}
+      objectReference: {fileID: 0}
     - target: {fileID: 5965469462532583996, guid: 3def006043be08f4484b76bf9c51cf06,
         type: 3}
       propertyPath: m_AnimatedTarget
       value: 
-      objectReference: {fileID: 764987242}
+      objectReference: {fileID: 0}
     - target: {fileID: 5965469462532583996, guid: 3def006043be08f4484b76bf9c51cf06,
         type: 3}
       propertyPath: m_ChildCameras.Array.data[0]
