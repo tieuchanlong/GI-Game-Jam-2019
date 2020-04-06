@@ -19,5 +19,5 @@ This project was the first time I worked with a team during Game Jam. It was har
 There is currently no plan for innovation or remastered.
 
 ## Project Information
-Source: https://github.com/tieuchanlong/GI-Game-Jam-2019
-Online access: https://simmer.io/@tieuchanlong/u-n-owen
+* Source: https://github.com/tieuchanlong/GI-Game-Jam-2019
+* Online access: https://simmer.io/@tieuchanlong/u-n-owen
