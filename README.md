@@ -12,6 +12,9 @@ This game is developed using Unity and Cinemachine mainly.
 ## Challenges
 This project was the first time I worked with a team during Game Jam. It was hard at first because of the level of communication and the short amount of time for ideation and development. During this project, I acted as both the team lead to direct and help new programmers and direct the artist of the team to design characters and draw some level components that match the game story. It was fun and we all had a great time at the jam. Our project was finished on time and well-received.
 
+## Programming Language
+C#
+
 ## Major Components
 * Unity
 
